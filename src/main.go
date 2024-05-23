@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
-func main() {
-	fmt.Println("Hello, World!")
+func init() {
+	fmt.Println("GoGit Called!")
+
+	os.ReadDir()
+
 }

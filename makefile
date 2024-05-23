@@ -5,11 +5,11 @@ all: build
 
 # Build target
 build:
-	go build -o ./bin/main.go ./src/gogit.go
+	go build -o ./build/gogit ./src/main.go
 
 # Clean target
 clean:
-	rm -f ./bin/
+	rm -f ./build/
 
 # Run target
 run:
